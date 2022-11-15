@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:elevation="4dip"
+    android:minHeight="42dip"
+    android:orientation="vertical"
+    android:paddingTop="6dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/promoBack"
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dip"
+            android:contentDescription="App"
+            android:src="@drawable/ic_person"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/topLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Popular"
+            android:textSize="22sp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/topmenuBuscar"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dip"
+            android:contentDescription="App"
+            android:src="@drawable/ic_logout"
+            app:tint="@color/black" />
+
+    </RelativeLayout>
+
+</LinearLayout>

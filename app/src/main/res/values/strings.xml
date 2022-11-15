@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenBenjaminViloria</string>
+    <string name="InicioFragment">InicioFragment</string>
+    <string name="menumainbottominicio">Inicio</string>
+</resources>
